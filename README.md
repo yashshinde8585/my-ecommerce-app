@@ -1,16 +1,42 @@
-# React + Vite
+# Code & Co.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern e-commerce store built with React. This application allows users to browse products, add items to a shopping cart, and log in to an account.
 
-Currently, two official plugins are available:
+## How to Run This Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Follow these steps to get the application running on your local machine.
 
-## React Compiler
+### Prerequisites
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Make sure you have [Node.js](https://www.google.com/search?q=httpss://nodejs.org/) and npm installed.
 
-## Expanding the ESLint configuration
+### Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  **Clone the repository:**
+
+    ```bash
+    git clone <your-repository-url>
+    cd <repository-folder>
+    ```
+
+2.  **Install dependencies:**
+    This command will install all the necessary packages for the project.
+
+    ```bash
+    npm install
+    ```
+
+3.  **Start the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+The application will now be running at `http://localhost:5173`.
+
+### Test Login
+
+You can use the following credentials to test the login functionality:
+
+  * **Email**: `test@example.com`
+  * **Password**: `password`
